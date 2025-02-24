@@ -1,0 +1,5 @@
+requests
+eth_account
+flask
+flask_cors
+fake_useragent
