@@ -1,5 +1,5 @@
 function executeRecaptcha() {
-    grecaptcha.execute('6Lf_xd8qAAAAANYpu_MCMXZA0A2_0F9wgB3pKs5j', {action: 'drip_request'}).then(function(token) {
+    grecaptcha.execute('6LdOf-EqAAAAAAKJ2QB6IqnJfsOl13El4XZwRD8c', {action: 'drip_request'}).then(function(token) {
         console.log("Token reCAPTCHA:", token);
 
         // Send recaptcha token with fetch
